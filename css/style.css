@@ -235,12 +235,12 @@ p{
 }
 
 .about {
-    animation: breath 2s infinite ease-in-out;
+    animation: breath 5s infinite ease-in-out;
 }
 
 .vision {
     margin-left: 150px;
-    animation: breath 2s infinite ease-in-out;
+    animation: breath 5s infinite ease-in-out;
 }
 
 @keyframes breath {
