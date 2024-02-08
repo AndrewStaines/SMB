@@ -144,7 +144,7 @@ p{
 .hidden2{
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(150px);
+    transform: translateX(50px);
     transition: all 1s ease-in-out;
 }
 
@@ -181,23 +181,23 @@ p{
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     font-size: 30px;
-    text-align: right;
-    margin-right: 250px;
+    text-align: center;
+    margin-right: 100px;;
     color: #f1c40f;
-    margin-top: -60px;
+    margin-top: -80px;
 }
 
 .abtContent{
-    margin-top: -200px;
+    margin-top: 150px;
+    margin-left: 300px;
 }
 
 .about p{
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
-    font-size: 15px;
-    text-align: right;
-    width: 50%;
-    margin-left: 690px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 150px;
 }
 
 .quote{
@@ -208,26 +208,86 @@ p{
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     font-size: 30px;
-    text-align: left;
+    margin-left: 50px;
+    text-align: center;
     margin-right: 0px;
     color: #f1c40f;
 }
 
 .visContent{
     margin-left: 50px;
-    margin-top: 150px;
+    margin-top: 70px;
 }
 
 .vision p{
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
-    font-size: 15px;
-    text-align: left;
-    width: 50%;
-    margin-left: 0px;
+    font-size: 20px;
+    text-align: center;
 }
 
-#vis{
-    float: right;
-    margin-top: -250px;
+.contents{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    gap: -10px;
+    margin-bottom: 70px;
+}
+
+.about {
+    animation: breath 2s infinite ease-in-out;
+}
+
+.vision {
+    margin-left: 150px;
+    animation: breath 2s infinite ease-in-out;
+}
+
+@keyframes breath {
+    0% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+}
+
+.quality h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-left: -50px;
+    justify-content: space-around;
+    margin-top: 100px;
+    gap: -50px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
